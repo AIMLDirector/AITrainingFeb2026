@@ -1,0 +1,7 @@
+git remote -v 
+git status 
+
+git add -A 
+git add .gitignore 
+git commit -m "add new files"
+git push 
