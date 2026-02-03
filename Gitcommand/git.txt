@@ -5,3 +5,27 @@ git add -A
 git add .gitignore 
 git commit -m "add new files"
 git push 
+
+
+remote(AItrainingfeb2026) --> local( AItrainingfeb2026)
+1 local deleting the folder -- git clone 
+.gitignore -- venv name
+requirement.txt -- virutal env package( pip freeze > requirement.txt)
+
+rm -rf AITrainingfeb2026
+git clone https://github.com/AIMLDirector/AITrainingFeb2026.git
+cd AITrainingFeb2026
+python -m venv AITrainingFeb2026
+source AITrainingFeb2026/bin/activate
+pip install -r requirement.txt
+
+2 remotly we may delete the folder  - delete can be recovered with vendor help 
+3  remote(AITrainingfeb2026)  -- local (gittestingfolder1) ( backup of our data )
+mkdir gittestingfolder1
+cd gittestingfolder1
+git init     ----> .git hidden folder( remote repo name, branches)
+git remote add origin git@github.com:AIMLDirector/AITrainingFeb2026.git
+git remote -v
+git pull origin main 
+ls -al 
+
