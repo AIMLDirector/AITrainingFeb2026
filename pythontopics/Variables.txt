@@ -1,0 +1,53 @@
+Variable is a name to store the data (different data types ) or label attached to some data 
+
+a = 1 ( a is storing integar value )
+b = 2.5 ( b is storing float value )
+c = "kumar" ( c is storing the string value)
+
+Variable types 
+Global Variable : It will be initialiazed at the start of the code ( accross the code the value will be same )
+
+local variable  : it will be used with in the function , loop, class code( it will be active with in the function )
+
+a =1 # global variable
+
+print(a)
+
+def func1():
+   b = 1  # local variable 
+   print(b) 
+   print(a) 
+
+print(a)
+
+print(b)  # failed b is not initialized 
+
+
+Categories of Data  - Build in Data types 
+Numerical Data types:  int, float, complex 
+string/Text Data types: string
+sequencial data types :  list, tuples, range
+boolean Data types: boolean( yes or no , true or false)
+Mapping data types : Dictionary , json, yaml 
+Set data types: Set
+binary data types : binary data, bytes, bit
+
+
+int, float, string
+list,range
+boolean 
+dictionary --> json , yaml  -- Structure format of storing the data ( key : value pair )
+xml -- json --> yaml 
+
+text - window -- mac or linux  
+
+xml -- application - configuration ( middleware )
+json --  creating the format and maintaining
+yaml format - ( comments , config use, readable , modify)   application/coding language/os /devops 
+
+db <->  yaml <-- > db 
+
+
+int, float, string, list, range 
+
+boolen,tuple,set 

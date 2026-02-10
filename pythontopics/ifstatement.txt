@@ -1,0 +1,13 @@
+loops
+1. if loop & condition statement 
+2 while loop  & condition statement
+3 Case condition statement 
+
+4 try & Exception case condition statement  - Validation / Verification - Data/information/module
+
+
+for is a simple loop -- looping statement with data/ text
+
+
+for + if 
+for + while
