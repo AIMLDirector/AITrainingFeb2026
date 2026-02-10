@@ -1,0 +1,17 @@
+module, package, dependent packages
+variables, input parametes
+function, class, loop, condition
+execution or calling the function/class - same files 
+calling the function or class from different files 
+
+extension -- file types is need in window  / linux & mac - file extension is not need ( files(word, py, excel, pdf), directory, binary, library )
+
+ we can load the file fast with the same format  & loading time will be less
+
+ extension -- create a virus code, hack the file, lock the file, thread process, looping -- window ( protect more )
+
+ .py 
+python text.py
+chmod +x text.py
+./text.py
+IDE -- 

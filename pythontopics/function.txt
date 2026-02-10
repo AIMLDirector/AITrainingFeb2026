@@ -1,0 +1,13 @@
+ function  vs module vs packaging 
+
+ function : Single repeated task  -  add two number 
+
+ module : Group of function ( group of task )  ( add, sub, mul, div  - math)
+
+ packaging ( group of module )( math , prob, stats)
+
+ oracle -- package (create db, managing the db, delete the db , read the db , tables )
+
+ package manager ( pypi )
+
+ in build module ( sys, os, datetime,platform, math , socket )
