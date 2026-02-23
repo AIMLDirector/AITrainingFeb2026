@@ -1,0 +1,40 @@
+ def f1():
+   <action> 
+   <print or return>
+
+
+def func1():
+    print("Testing functional coding ")
+
+@func1 -- Tools 
+def func2(a,b):
+   c = a+b
+   print(c) or return c 
+
+def func1(a,b)
+    c = a + b
+    print(c)
+    def func2()
+        d = c + a + b
+        return d
+
+func2() 
+
+
+ Decorator  - nested function and Cache logics  
+
+
+def f1(a):
+   print(a)
+
+@f1(2)
+def main():
+   print("code ran successfully ")
+
+
+main()
+
+
+
+
+    

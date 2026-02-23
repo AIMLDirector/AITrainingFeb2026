@@ -11,3 +11,44 @@ for is a simple loop -- looping statement with data/ text
 
 for + if 
 for + while
+
+with if we create 6 logical  condition 
+1 Equals ==
+2  Not equals !=
+3 Less than or equals to  < , <=
+4 greater than or equals to > >=
+5 and , or , not   || && !
+
+if <condition|multiple condition>:
+    <action> 
+
+if <condition:
+    <action>
+else:
+    <action>
+
+if <condition>:
+    <action>
+elif <condition>:
+    <action>
+else:
+    <action> 
+
+
+if <condition>:
+    <action>
+elif <condition>:
+    <action>
+elif <condition>:
+    <action>
+elif <condition>:
+    <action>
+else:
+    <action> 
+    
+
+if (a > b):
+    print("a is greater than b")
+
+if a > b:
+    print("a is greater than b") 

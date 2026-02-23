@@ -1,0 +1,11 @@
+def func1(a:int, b:None):
+
+
+list, Dict, 
+optional parameter 
+combining two output or two input 
+input  list( a,b,c )
+
+age:int = 25
+
+

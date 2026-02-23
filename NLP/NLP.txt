@@ -1,0 +1,67 @@
+NLP -- Text information 
+It is a branch of AI it will enable computers to understand, interpret, generate and respond to the human langauge 
+
+
+NLP -- Neural network -- > Gen AI (ANI) -- AGI (openclaw) 5 % 
+
+1. pattern 
+2. emotion 
+3. requirement /need
+4. assumption 
+5. sentiment 
+6. langauge
+7. tone ,choice of word
+8. context
+9. relationship 
+
+1. Chatgpt
+2. google translator
+3. voice assistant 
+4. Security: Spam/not spam , externel/internal, fraud/nonfraud, 
+5. Auto-correct of the spelling, sentence, sentence generation
+6. Auto generating the code - copilot 
+7. Sentiment analytics 
+
+
+ corpus -- doctor, psychologics , writer, poetry ( document- words, sentence ) 1970+ 
+1. Word  -- 2009 - 2011 ( google, open source, chatgpt,)   NLTK  
+2. sentence -- 2013 - 2015  textblob, genism  ( facebook ), neural network 
+3. paragraph - 2017  --  Transformer(Google), BERT, roBERT ,  -- helping the people on conversation , self-service help 
+4. GENAI model -- 2019 -- chatgpt, gemini, llama, meta - testing ( test case, generate the code -- 40% )
+5. 2021 -- coding, testing of the function 
+6. 2022 -- data engineering, data analytics, db, infra side
+
+
+NLP ( Text preprocessing, embedding, infromation retrievel )
+1. Text preprocessing 
+2. embedding
+3. information retrieval
+4. chatbot - transformer
+5. Q & A 
+6. Text Classification
+7. Code generation 
+8. RAG 
+9. AI agent
+10. Agentic AI 
+
+
+Text preprocessing
+1. lowercase
+2. special characters( ,::;./)
+3. removing the stop words or filler words ( and, or, not, the , they , why , what , when , how, with )
+4.  Core words
+5.  Action (Grammer)
+6. person, location, information.. 
+7. understand the meaning 
+
+
+Text preprocessing
+1. tokenization   ( word tokenization, subword tokenization, sentence tokenization ) -- Breaking the text into words or sentence
+
+  i, am ,learning, python  -  word tokenization 
+  learning = learn + ing -- subword tokenization 
+
+  learning -- root word  ( learn -- learning, learned)
+
+  i am learning python.   sentence tokenization (,.  or  context , number of word -- chunking )
+  i want to learn java also 

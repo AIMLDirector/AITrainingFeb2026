@@ -1,0 +1,42 @@
+ file handling -  Dealing with the files
+
+ 1. reading the data from the files
+ 2. writing the data into the files
+ 3. appending the data into the files
+ 4. X - create a file if the file is not their else it will exit if the file already exist 
+
+  r, w, a rw,ra wa  x
+
+  rwx 
+
+
+  1. validate whether the file exist or not 
+  2. open  a file with options -  Read, write, append , validation
+  3. file type it is  - text, csv , json 
+  4. read the entire data or line by line 
+  5. Action 
+  6. closing the file  -- 
+
+  a = open("input_output.txt")  or open("/Users/premkumargontrand/AITrainingFeb2026/pythontopics/input_output.txt")
+  print(a.read())
+  a.close()
+
+
+  with open("input_output.txt") as f:
+    print(f.read())
+    f.close()
+
+with open("input_output.txt") as f:
+    print(f.readline())
+    f.close()
+
+
+
+with open("input_output.txt", "wxa") as file:   -- loading the file from disk to the memory 
+   for i in file:
+        print(i.strip())  -- remove the trail/leading space on the line 
+    file.close()  - close the session and save from memory to disk 
+
+
+
+
