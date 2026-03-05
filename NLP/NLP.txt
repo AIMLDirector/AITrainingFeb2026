@@ -1,0 +1,241 @@
+NLP -- Text information 
+It is a branch of AI it will enable computers to understand, interpret, generate and respond to the human langauge 
+
+
+NLP -- Neural network -- > Gen AI (ANI) -- AGI (openclaw) 5 % 
+
+1. pattern 
+2. emotion 
+3. requirement /need
+4. assumption 
+5. sentiment 
+6. langauge
+7. tone ,choice of word
+8. context
+9. relationship 
+
+1. Chatgpt
+2. google translator
+3. voice assistant 
+4. Security: Spam/not spam , externel/internal, fraud/nonfraud, 
+5. Auto-correct of the spelling, sentence, sentence generation
+6. Auto generating the code - copilot 
+7. Sentiment analytics 
+
+
+ corpus -- doctor, psychologics , writer, poetry ( document- words, sentence ) 1970+ 
+1. Word  -- 2009 - 2011 ( google, open source, chatgpt,)   NLTK  
+2. sentence -- 2013 - 2015  textblob, genism  ( facebook ), neural network 
+3. paragraph - 2017  --  Transformer(Google), BERT, roBERT ,  -- helping the people on conversation , self-service help 
+4. GENAI model -- 2019 -- chatgpt, gemini, llama, meta - testing ( test case, generate the code -- 40% )
+5. 2021 -- coding, testing of the function 
+6. 2022 -- data engineering, data analytics, db, infra side
+
+
+NLP ( Text preprocessing, embedding, infromation retrievel )
+1. Text preprocessing 
+2. embedding
+3. information retrieval
+4. chatbot - transformer
+5. Q & A 
+6. Text Classification
+7. Code generation 
+8. RAG 
+9. AI agent
+10. Agentic AI 
+
+
+Text preprocessing
+1. lowercase
+2. special characters( ,::;./)
+3. removing the stop words or filler words ( and, or, not, the , they , why , what , when , how, with )
+4.  Core words
+5.  Action (Grammer)
+6. person, location, information.. 
+7. understand the meaning 
+
+
+Text preprocessing
+1. tokenization   ( word tokenization, subword tokenization, sentence tokenization ) -- Breaking the text into words or sentence
+
+  i, am ,learning, python  -  word tokenization 
+  learning = learn + ing -- subword tokenization 
+
+  learning -- root word  ( learn -- learning, learned)
+
+  i am learning python.   sentence tokenization (,.  or  context , number of word -- chunking )
+  i want to learn java also 
+
+5 phases of NLP 
+1. Lexical and morphological analytics   - word level breakdown 
+2. syntactic analytics  -- Grammer and structure(POS)
+3. semantic analytics -- liternal meaning of the word ( person, location, general information - NER  - bank  - riverbank , financial bank )
+4. Discourse integeration -- context and how they framed the sentence , integeration of multiple sentences( sam is a male , he, he)
+5. pragmatic analytics(sentiment) -- intent meaning & context , how can i help?|what you want ? - hidden intent, emotion, behaviour, direct/indirect
+
+
+NLP :
+1. NLTK , spacy , genism, transform 
+
+pip install notebook
+
+jupyter notebook
+
+
+NLTK  -- 20  to 30 %  - rule based use case - bank /self-service ticket creation 
+
+1 Tokenization - word, sentence
+2 Stop word 
+3 lowercase
+4 Root word -- stemming, lemmatization 
+5 POS - part of the speech tagging - Grammatically 
+6 NER - named entity 
+7 chunking - Gen AI 
+8 Frequency distribution - repeated word, count 
+
+human pattern -- word, frequency , context, content  -- 2009 
+
+1. context - which word are used in which placed
+2. Relationship of the word 
+3. meaning of the word 
+
+ Encoding:  
+converting text to number 
+
+one hot encoding 
+ i am learning python and AI ( 6 * 6 ) array 
+ 1 0   0     0   0  0 
+ 0 1   0     0   0  0 
+ 0 0   1     0   0  0 
+ 0 0   0     1   0  0 
+
+ label encoding 
+
+ a - 0 
+ b - 1 
+ c - 2   
+ red -- 01
+ blue -- 02 
+
+
+binary encoding -- encryption /security 
+
+ a - 00
+ b - 01
+ and -- 0110
+
+
+ text encoding 
+
+ i am learning pythong and AI - [ 0,1,0,1,1,1]
+
+ Vectorization :( 0 to 1) -- Word2vect, Glove, Fasttext  - 2013 
+ meaning 
+ learning -- place( v, noun ) , meaning( ), syntax -- learn, learning, learned  equivalent -- studying, readying  - 0.223333
+ learning - 0.2233333
+ studying - 0.2343333
+ readying -- 0.24000324123
+
+0.223333 == 0.2343333   - 0.0120000 -- similar word meaning and contexted 
+ pattern 
+ i am learning python
+ i am learning AI
+ i am learning data science 
+
+ learning, i , am, [[python, AI, Data Science ]]
+
+ position encoding 
+
+ I(1)  am ( 2) learning(3)  4
+
+
+ embedding ( meaning, pattern, position in a sentence) -- semantic vector representation 
+
+
+
+ embedding + context == context embedding -- Transformer( meaning, vectorization, pattern, context, position)  BERT model , Robert model ,  2017 
+
+
+sentence encoder -- Transformer 
+
+1 encoding -- text - numbers 
+2 vectorization - -- text to structured numerical vector
+3 embedding --  text to meaning awared dense vector 
+
+ word embeddding , sentence embedding,, context embedding --   Gen AI model 
+
+ i am learning  (java, python, ) /( Ai, Data science, science, social ) /( sport, ) -   1000 sentence  -- Vector representation of the words cluster 
+
+   Text - vector - vector db --  cosine similarity  to retrieve the information 
+
+   how to learn python 
+
+
+   learn  -- document , link , data
+   python  -- document, link, data, web pages
+
+   learn + python -- documents, link , data, webpage, 
+
+ Ranking 
+
+ 1. 
+ 2
+ 3
+ 4
+ 5
+
+ model ( 1000 ) -- output 
+
+ top matching ranked data
+  summarization of the the data  
+
+Vector :  converting Data into numerical vector , including  simple and sparse methods like  TF/IDF which capture  word relationships
+
+embedding: - this is a form of vectorization that captures semantic meaning, context in dense , real valued vector. ( Word2vec, BERT)
+
+ D1 :I am learning python 
+ D2: I am learning AI and Datascience
+ D3: I am learning python, AI and datascience
+
+ D1 :  TF = no of time the word appear in a document/ total no of word in that  documnet 
+      TF = 1/4, 1/4
+
+      IDF = log( total document /total document contain that word)
+      IDF = log( 3/3), log( 3/2)
+
+      Vector = TF* IDF = 1/4 * log(1) =  0 
+                       = 1/4 * log(.94) =  0.87 
+
+                     D1:  [ 0, 0, 0,  0.87]
+
+Embedding : I am learning python
+
+[ I, am , learning, python] -- [40, 939, 7524, 22752]  == embedded matrix = ( vocab size ) * embedded dimension 
+
+  40 = 40 * [40 * 40] * poistion in the sentence = [  0.12,0.13, 0.4  
+                                                          
+                                                          
+                                                          
+                                                                  0.65 ]
+
+
+   Token embedding * position embedding = [ 40 * 40 ]
+
+   word2vec , fasttext  --  embedding model - 
+  
+
+  D1 = 1000 word - word token - embedding -- model - Gen AI  -  learning , similar word with learning = studying(.5)
+
+  D1 == 1000 word - chunk(100 word) = 10 chunks( overlapping - 2% - 10 % ) - embedding -- model -- GEN AI ( sentence)
+
+
+  Textblob - understand the word and provide some help on that
+
+  customer feedback -- happy, unhappy, help 
+
+
+os.path()
+os.cwd(/Users/premkumargontrand/AITrainingFeb2026/NLP/NLTK/)
+endwith(*.xlsx)
+
+/Users/premkumargontrand/AITrainingFeb2026/NLP/NLTK/.~sentiment_results.xlsx
