@@ -1,0 +1,7 @@
+1.  Framework  -- open source( ollama,lmstudio) / cloud product ( AWS bedrock  - framework, platform , Azure cloud foundry- framework, platform)
+2.  API layer(tool)  - gateway-- orchestration layer , integration layer --  langchain, llamaindex, haystack, openai, microsoft layer,
+3.  model  --  llm model( google, facebook, openai, grok, qwen,) - huggingface ( publishers)-- SAAS vendor providing the platform to store and manage the model 
+4.  platform  - hosting the llm model along with the code - ( container - kubernetes, Azure, aws)/ Virtual server- applicaton ( cloud/ virtual server)
+
+
+model -> api layer -> framework ->  - platform( onpremises or cloud)

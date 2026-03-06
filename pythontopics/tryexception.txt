@@ -1,0 +1,10 @@
+try block  allow us to test the code with conditional error code
+
+try:
+  true try condition will be executed
+except:
+   false: error will be printed in the screen
+else:
+  false: else condition will be executed 
+finally: 
+   true/false: final condition will be executed 
