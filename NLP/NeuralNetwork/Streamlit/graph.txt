@@ -1,0 +1,8 @@
+1. matplotlib
+2. seaborn
+3. ploty
+
+javascript
+ploty.js
+D3.js
+chart.js
